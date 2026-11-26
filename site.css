@@ -57,3 +57,18 @@ footer{padding:.8rem 0;border-top:1px solid var(--line);flex-wrap:wrap}footer st
 @media(prefers-contrast:more){.small,.intro,.facts p,.screens>p,.workshop p,.closer p{color:#142128}}
 
 @media(max-width:390px){.hero{padding:1.5rem 0}.hero h1{font-size:2.55rem}.hero .eyebrow{font-size:.73rem;margin-bottom:.7rem}.hero .intro{margin:.9rem 0 1rem}.actions{gap:.2rem .8rem}}
+.guide{max-width:900px;padding:clamp(2rem,5vw,4.25rem) 0 1.4rem}
+.guide-intro{border-bottom:1px solid var(--line);padding-bottom:clamp(1.7rem,4vw,3rem)}
+.guide-intro h1{max-width:19ch;font-size:clamp(2.45rem,6vw,4.6rem)}
+.guide-intro .intro,.guide-content>p,.guide .closer p{max-width:65ch}
+.guide-content{margin:clamp(2rem,4vw,3.4rem) 0}
+.guide-content h2,.guide-example h2{font-size:clamp(1.65rem,3.4vw,2.4rem)}
+.guide-steps{padding-left:1.5rem;max-width:69ch;margin-bottom:0}
+.guide-steps li{padding-left:.4rem;margin:.7rem 0}
+.guide-steps li::marker{font-weight:750;color:#345331}
+.guide-example{padding:clamp(1.25rem,4vw,2.3rem);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,190px);align-items:center;gap:clamp(1.5rem,5vw,3rem);border:1px solid #b5c5a8;border-radius:1.3rem;background:#e7eddd;scroll-margin:1rem}
+.guide-example h3{margin-top:1.5rem}.guide-example blockquote p{font-size:1.14rem}.guide-example .reply{border-color:#345331}
+.guide-example img{display:block;width:100%;height:auto;border-radius:.8rem}
+.guide-example .proof{font-size:.93rem;color:var(--muted);margin:1.35rem 0 .15rem}
+.guide .closer>div{max-width:63ch}.guide .closer{margin-bottom:.6rem}
+@media(max-width:650px){.guide-example{grid-template-columns:1fr}.guide-example>a{justify-self:center;width:min(185px,100%)}}
