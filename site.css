@@ -72,3 +72,8 @@ footer{padding:.8rem 0;border-top:1px solid var(--line);flex-wrap:wrap}footer st
 .guide-example .proof{font-size:.93rem;color:var(--muted);margin:1.35rem 0 .15rem}
 .guide .closer>div{max-width:63ch}.guide .closer{margin-bottom:.6rem}
 @media(max-width:650px){.guide-example{grid-template-columns:1fr}.guide-example>a{justify-self:center;width:min(185px,100%)}}
+.info>.jump{margin-top:.65rem}
+.speed-result{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(1rem,4vw,2.75rem);align-items:center;background:#193c30;color:#fff;padding:clamp(1.1rem,4vw,2rem);border-radius:1.2rem}
+.speed-result p,.speed-result small{margin:.2rem 0;display:block}.speed-result>div:first-child strong{display:block;color:#d8ee96;font-size:clamp(2.4rem,6vw,3.8rem);font-variant-numeric:tabular-nums;line-height:1.15;margin:.25rem 0}.speed-result>div+div strong{font-size:1.35rem}
+.speed-steps{margin:1rem 0}.speed-steps>div{display:grid;grid-template-columns:minmax(11rem,.8fr) minmax(0,2fr);gap:.6rem;border-bottom:1px solid var(--line);padding:.8rem 0}.speed-steps dt{font-weight:650}.speed-steps dd{margin:0;display:grid;grid-template-columns:5rem 1fr;gap:.5rem}.speed-steps dd strong{font-variant-numeric:tabular-nums}
+@media(max-width:600px){.speed-result{grid-template-columns:1fr}.speed-steps>div{grid-template-columns:1fr}.speed-steps dd{grid-template-columns:4.6rem 1fr}}
